@@ -1,0 +1,84 @@
+<top abs_name="top" size="60" coverage="60" cover_percentage="100.0">
+  <alu size="60" coverage="60" cover_percentage="100.0" abs_name="top.alu">
+    <operation size="2" coverage="2" cover_percentage="100.0" abs_name="top.alu.operation" weight="1" at_least="1">
+      <bin0 bin="ADD" hits="2600" abs_name="top.alu.operation.bin0" />
+      <bin1 bin="SUB" hits="2444" abs_name="top.alu.operation.bin1" />
+    </operation>
+    <sew size="4" coverage="4" cover_percentage="100.0" abs_name="top.alu.sew" weight="1" at_least="1">
+      <bin0 bin="8" hits="1308" abs_name="top.alu.sew.bin0" />
+      <bin1 bin="16" hits="1191" abs_name="top.alu.sew.bin1" />
+      <bin2 bin="32" hits="1256" abs_name="top.alu.sew.bin2" />
+      <bin3 bin="64" hits="1289" abs_name="top.alu.sew.bin3" />
+    </sew>
+    <sign_mode size="2" coverage="2" cover_percentage="100.0" abs_name="top.alu.sign_mode" weight="1" at_least="1">
+      <bin0 bin="Signed" hits="2480" abs_name="top.alu.sign_mode.bin0" />
+      <bin1 bin="Unsigned" hits="2564" abs_name="top.alu.sign_mode.bin1" />
+    </sign_mode>
+    <cross_main size="16" coverage="16" cover_percentage="100.0" abs_name="top.alu.cross_main" weight="1" at_least="1">
+      <bin0 bin="('ADD', 8, 'Signed')" hits="346" abs_name="top.alu.cross_main.bin0" />
+      <bin1 bin="('ADD', 8, 'Unsigned')" hits="333" abs_name="top.alu.cross_main.bin1" />
+      <bin2 bin="('ADD', 16, 'Signed')" hits="308" abs_name="top.alu.cross_main.bin2" />
+      <bin3 bin="('ADD', 16, 'Unsigned')" hits="297" abs_name="top.alu.cross_main.bin3" />
+      <bin4 bin="('ADD', 32, 'Signed')" hits="282" abs_name="top.alu.cross_main.bin4" />
+      <bin5 bin="('ADD', 32, 'Unsigned')" hits="354" abs_name="top.alu.cross_main.bin5" />
+      <bin6 bin="('ADD', 64, 'Signed')" hits="355" abs_name="top.alu.cross_main.bin6" />
+      <bin7 bin="('ADD', 64, 'Unsigned')" hits="325" abs_name="top.alu.cross_main.bin7" />
+      <bin8 bin="('SUB', 8, 'Signed')" hits="305" abs_name="top.alu.cross_main.bin8" />
+      <bin9 bin="('SUB', 8, 'Unsigned')" hits="324" abs_name="top.alu.cross_main.bin9" />
+      <bin10 bin="('SUB', 16, 'Signed')" hits="273" abs_name="top.alu.cross_main.bin10" />
+      <bin11 bin="('SUB', 16, 'Unsigned')" hits="313" abs_name="top.alu.cross_main.bin11" />
+      <bin12 bin="('SUB', 32, 'Signed')" hits="315" abs_name="top.alu.cross_main.bin12" />
+      <bin13 bin="('SUB', 32, 'Unsigned')" hits="305" abs_name="top.alu.cross_main.bin13" />
+      <bin14 bin="('SUB', 64, 'Signed')" hits="296" abs_name="top.alu.cross_main.bin14" />
+      <bin15 bin="('SUB', 64, 'Unsigned')" hits="313" abs_name="top.alu.cross_main.bin15" />
+    </cross_main>
+    <zero_inputs size="4" coverage="4" cover_percentage="100.0" abs_name="top.alu.zero_inputs" weight="1" at_least="1">
+      <bin0 bin="Src1Zero" hits="8" abs_name="top.alu.zero_inputs.bin0" />
+      <bin1 bin="Src2Zero" hits="8" abs_name="top.alu.zero_inputs.bin1" />
+      <bin2 bin="BothZero" hits="8" abs_name="top.alu.zero_inputs.bin2" />
+      <bin3 bin="NonZero" hits="5020" abs_name="top.alu.zero_inputs.bin3" />
+    </zero_inputs>
+    <result_edge size="3" coverage="3" cover_percentage="100.0" abs_name="top.alu.result_edge" weight="1" at_least="1">
+      <bin0 bin="AllZero" hits="12" abs_name="top.alu.result_edge.bin0" />
+      <bin1 bin="MaxVal" hits="167" abs_name="top.alu.result_edge.bin1" />
+      <bin2 bin="Normal" hits="4865" abs_name="top.alu.result_edge.bin2" />
+    </result_edge>
+    <input_relation size="3" coverage="3" cover_percentage="100.0" abs_name="top.alu.input_relation" weight="1" at_least="1">
+      <bin0 bin="Equal" hits="16" abs_name="top.alu.input_relation.bin0" />
+      <bin1 bin="Src1GT" hits="2586" abs_name="top.alu.input_relation.bin1" />
+      <bin2 bin="Src2GT" hits="2442" abs_name="top.alu.input_relation.bin2" />
+    </input_relation>
+    <op_x_zero size="8" coverage="8" cover_percentage="100.0" abs_name="top.alu.op_x_zero" weight="1" at_least="1">
+      <bin0 bin="('ADD', 'Src1Zero')" hits="4" abs_name="top.alu.op_x_zero.bin0" />
+      <bin1 bin="('ADD', 'Src2Zero')" hits="4" abs_name="top.alu.op_x_zero.bin1" />
+      <bin2 bin="('ADD', 'BothZero')" hits="4" abs_name="top.alu.op_x_zero.bin2" />
+      <bin3 bin="('ADD', 'NonZero')" hits="2588" abs_name="top.alu.op_x_zero.bin3" />
+      <bin4 bin="('SUB', 'Src1Zero')" hits="4" abs_name="top.alu.op_x_zero.bin4" />
+      <bin5 bin="('SUB', 'Src2Zero')" hits="4" abs_name="top.alu.op_x_zero.bin5" />
+      <bin6 bin="('SUB', 'BothZero')" hits="4" abs_name="top.alu.op_x_zero.bin6" />
+      <bin7 bin="('SUB', 'NonZero')" hits="2432" abs_name="top.alu.op_x_zero.bin7" />
+    </op_x_zero>
+    <sew_x_result size="12" coverage="12" cover_percentage="100.0" abs_name="top.alu.sew_x_result" weight="1" at_least="1">
+      <bin0 bin="(8, 'AllZero')" hits="3" abs_name="top.alu.sew_x_result.bin0" />
+      <bin1 bin="(8, 'MaxVal')" hits="158" abs_name="top.alu.sew_x_result.bin1" />
+      <bin2 bin="(8, 'Normal')" hits="1147" abs_name="top.alu.sew_x_result.bin2" />
+      <bin3 bin="(16, 'AllZero')" hits="3" abs_name="top.alu.sew_x_result.bin3" />
+      <bin4 bin="(16, 'MaxVal')" hits="3" abs_name="top.alu.sew_x_result.bin4" />
+      <bin5 bin="(16, 'Normal')" hits="1185" abs_name="top.alu.sew_x_result.bin5" />
+      <bin6 bin="(32, 'AllZero')" hits="3" abs_name="top.alu.sew_x_result.bin6" />
+      <bin7 bin="(32, 'MaxVal')" hits="3" abs_name="top.alu.sew_x_result.bin7" />
+      <bin8 bin="(32, 'Normal')" hits="1250" abs_name="top.alu.sew_x_result.bin8" />
+      <bin9 bin="(64, 'AllZero')" hits="3" abs_name="top.alu.sew_x_result.bin9" />
+      <bin10 bin="(64, 'MaxVal')" hits="3" abs_name="top.alu.sew_x_result.bin10" />
+      <bin11 bin="(64, 'Normal')" hits="1283" abs_name="top.alu.sew_x_result.bin11" />
+    </sew_x_result>
+    <sign_x_relation size="6" coverage="6" cover_percentage="100.0" abs_name="top.alu.sign_x_relation" weight="1" at_least="1">
+      <bin0 bin="('Signed', 'Equal')" hits="4" abs_name="top.alu.sign_x_relation.bin0" />
+      <bin1 bin="('Signed', 'Src1GT')" hits="1265" abs_name="top.alu.sign_x_relation.bin1" />
+      <bin2 bin="('Signed', 'Src2GT')" hits="1211" abs_name="top.alu.sign_x_relation.bin2" />
+      <bin3 bin="('Unsigned', 'Equal')" hits="12" abs_name="top.alu.sign_x_relation.bin3" />
+      <bin4 bin="('Unsigned', 'Src1GT')" hits="1321" abs_name="top.alu.sign_x_relation.bin4" />
+      <bin5 bin="('Unsigned', 'Src2GT')" hits="1231" abs_name="top.alu.sign_x_relation.bin5" />
+    </sign_x_relation>
+  </alu>
+</top>

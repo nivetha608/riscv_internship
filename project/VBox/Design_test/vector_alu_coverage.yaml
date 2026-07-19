@@ -1,0 +1,145 @@
+alu:
+  cover_percentage: 100.0
+  coverage: 60
+  size: 60
+  type: <class 'cocotb_coverage.coverage.CoverItem'>
+alu.cross_main:
+  at_least: 1
+  bins:_hits:
+    ('ADD', 16, 'Signed'): 308
+    ('ADD', 16, 'Unsigned'): 297
+    ('ADD', 32, 'Signed'): 282
+    ('ADD', 32, 'Unsigned'): 354
+    ('ADD', 64, 'Signed'): 355
+    ('ADD', 64, 'Unsigned'): 325
+    ('ADD', 8, 'Signed'): 346
+    ('ADD', 8, 'Unsigned'): 333
+    ('SUB', 16, 'Signed'): 273
+    ('SUB', 16, 'Unsigned'): 313
+    ('SUB', 32, 'Signed'): 315
+    ('SUB', 32, 'Unsigned'): 305
+    ('SUB', 64, 'Signed'): 296
+    ('SUB', 64, 'Unsigned'): 313
+    ('SUB', 8, 'Signed'): 305
+    ('SUB', 8, 'Unsigned'): 324
+  cover_percentage: 100.0
+  coverage: 16
+  size: 16
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+alu.input_relation:
+  at_least: 1
+  bins:_hits:
+    Equal: 16
+    Src1GT: 2586
+    Src2GT: 2442
+  cover_percentage: 100.0
+  coverage: 3
+  size: 3
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.op_x_zero:
+  at_least: 1
+  bins:_hits:
+    ('ADD', 'BothZero'): 4
+    ('ADD', 'NonZero'): 2588
+    ('ADD', 'Src1Zero'): 4
+    ('ADD', 'Src2Zero'): 4
+    ('SUB', 'BothZero'): 4
+    ('SUB', 'NonZero'): 2432
+    ('SUB', 'Src1Zero'): 4
+    ('SUB', 'Src2Zero'): 4
+  cover_percentage: 100.0
+  coverage: 8
+  size: 8
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+alu.operation:
+  at_least: 1
+  bins:_hits:
+    ADD: 2600
+    SUB: 2444
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.result_edge:
+  at_least: 1
+  bins:_hits:
+    AllZero: 12
+    MaxVal: 167
+    Normal: 4865
+  cover_percentage: 100.0
+  coverage: 3
+  size: 3
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.sew:
+  at_least: 1
+  bins:_hits:
+    8: 1308
+    16: 1191
+    32: 1256
+    64: 1289
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.sew_x_result:
+  at_least: 1
+  bins:_hits:
+    (16, 'AllZero'): 3
+    (16, 'MaxVal'): 3
+    (16, 'Normal'): 1185
+    (32, 'AllZero'): 3
+    (32, 'MaxVal'): 3
+    (32, 'Normal'): 1250
+    (64, 'AllZero'): 3
+    (64, 'MaxVal'): 3
+    (64, 'Normal'): 1283
+    (8, 'AllZero'): 3
+    (8, 'MaxVal'): 158
+    (8, 'Normal'): 1147
+  cover_percentage: 100.0
+  coverage: 12
+  size: 12
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+alu.sign_mode:
+  at_least: 1
+  bins:_hits:
+    Signed: 2480
+    Unsigned: 2564
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.sign_x_relation:
+  at_least: 1
+  bins:_hits:
+    ('Signed', 'Equal'): 4
+    ('Signed', 'Src1GT'): 1265
+    ('Signed', 'Src2GT'): 1211
+    ('Unsigned', 'Equal'): 12
+    ('Unsigned', 'Src1GT'): 1321
+    ('Unsigned', 'Src2GT'): 1231
+  cover_percentage: 100.0
+  coverage: 6
+  size: 6
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+alu.zero_inputs:
+  at_least: 1
+  bins:_hits:
+    BothZero: 8
+    NonZero: 5020
+    Src1Zero: 8
+    Src2Zero: 8
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1

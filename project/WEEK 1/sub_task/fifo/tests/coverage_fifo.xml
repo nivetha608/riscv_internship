@@ -1,0 +1,56 @@
+<top abs_name="top" size="32" coverage="26" cover_percentage="81.25">
+  <rw size="2" coverage="2" cover_percentage="100.0" abs_name="top.rw" weight="1" at_least="1">
+    <bin0 bin="True" hits="45" abs_name="top.rw.bin0" />
+    <bin1 bin="False" hits="55" abs_name="top.rw.bin1" />
+  </rw>
+  <fifo_empty size="2" coverage="2" cover_percentage="100.0" abs_name="top.fifo_empty" weight="1" at_least="1">
+    <bin0 bin="True" hits="6" abs_name="top.fifo_empty.bin0" />
+    <bin1 bin="False" hits="94" abs_name="top.fifo_empty.bin1" />
+  </fifo_empty>
+  <fifo_full size="2" coverage="1" cover_percentage="50.0" abs_name="top.fifo_full" weight="1" at_least="1">
+    <bin0 bin="True" hits="0" abs_name="top.fifo_full.bin0" />
+    <bin1 bin="False" hits="100" abs_name="top.fifo_full.bin1" />
+  </fifo_full>
+  <fifo_threshold size="2" coverage="2" cover_percentage="100.0" abs_name="top.fifo_threshold" weight="1" at_least="1">
+    <bin0 bin="True" hits="36" abs_name="top.fifo_threshold.bin0" />
+    <bin1 bin="False" hits="64" abs_name="top.fifo_threshold.bin1" />
+  </fifo_threshold>
+  <fifo_overflow size="2" coverage="1" cover_percentage="50.0" abs_name="top.fifo_overflow" weight="1" at_least="1">
+    <bin0 bin="True" hits="0" abs_name="top.fifo_overflow.bin0" />
+    <bin1 bin="False" hits="100" abs_name="top.fifo_overflow.bin1" />
+  </fifo_overflow>
+  <fifo_underflow size="2" coverage="2" cover_percentage="100.0" abs_name="top.fifo_underflow" weight="1" at_least="1">
+    <bin0 bin="True" hits="4" abs_name="top.fifo_underflow.bin0" />
+    <bin1 bin="False" hits="96" abs_name="top.fifo_underflow.bin1" />
+  </fifo_underflow>
+  <rwXempty size="4" coverage="4" cover_percentage="100.0" abs_name="top.rwXempty" weight="1" at_least="1">
+    <bin0 bin="(True, True)" hits="4" abs_name="top.rwXempty.bin0" />
+    <bin1 bin="(True, False)" hits="41" abs_name="top.rwXempty.bin1" />
+    <bin2 bin="(False, True)" hits="2" abs_name="top.rwXempty.bin2" />
+    <bin3 bin="(False, False)" hits="53" abs_name="top.rwXempty.bin3" />
+  </rwXempty>
+  <rwXfull size="4" coverage="2" cover_percentage="50.0" abs_name="top.rwXfull" weight="1" at_least="1">
+    <bin0 bin="(True, True)" hits="0" abs_name="top.rwXfull.bin0" />
+    <bin1 bin="(True, False)" hits="45" abs_name="top.rwXfull.bin1" />
+    <bin2 bin="(False, True)" hits="0" abs_name="top.rwXfull.bin2" />
+    <bin3 bin="(False, False)" hits="55" abs_name="top.rwXfull.bin3" />
+  </rwXfull>
+  <rwXthreshold size="4" coverage="4" cover_percentage="100.0" abs_name="top.rwXthreshold" weight="1" at_least="1">
+    <bin0 bin="(True, True)" hits="20" abs_name="top.rwXthreshold.bin0" />
+    <bin1 bin="(True, False)" hits="25" abs_name="top.rwXthreshold.bin1" />
+    <bin2 bin="(False, True)" hits="16" abs_name="top.rwXthreshold.bin2" />
+    <bin3 bin="(False, False)" hits="39" abs_name="top.rwXthreshold.bin3" />
+  </rwXthreshold>
+  <rwXoverflow size="4" coverage="2" cover_percentage="50.0" abs_name="top.rwXoverflow" weight="1" at_least="1">
+    <bin0 bin="(True, True)" hits="0" abs_name="top.rwXoverflow.bin0" />
+    <bin1 bin="(True, False)" hits="45" abs_name="top.rwXoverflow.bin1" />
+    <bin2 bin="(False, True)" hits="0" abs_name="top.rwXoverflow.bin2" />
+    <bin3 bin="(False, False)" hits="55" abs_name="top.rwXoverflow.bin3" />
+  </rwXoverflow>
+  <rwXunderflow size="4" coverage="4" cover_percentage="100.0" abs_name="top.rwXunderflow" weight="1" at_least="1">
+    <bin0 bin="(True, True)" hits="2" abs_name="top.rwXunderflow.bin0" />
+    <bin1 bin="(True, False)" hits="43" abs_name="top.rwXunderflow.bin1" />
+    <bin2 bin="(False, True)" hits="2" abs_name="top.rwXunderflow.bin2" />
+    <bin3 bin="(False, False)" hits="53" abs_name="top.rwXunderflow.bin3" />
+  </rwXunderflow>
+</top>

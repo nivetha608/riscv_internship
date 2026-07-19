@@ -1,0 +1,60 @@
+<top abs_name="top" size="32" coverage="32" cover_percentage="100.0">
+  <div size="32" coverage="32" cover_percentage="100.0" abs_name="top.div">
+    <funct3 size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.funct3" weight="1" at_least="1">
+      <bin0 bin="5" hits="117" abs_name="top.div.funct3.bin0" />
+      <bin1 bin="7" hits="117" abs_name="top.div.funct3.bin1" />
+    </funct3>
+    <wordop size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.wordop" weight="1" at_least="1">
+      <bin0 bin="0" hits="124" abs_name="top.div.wordop.bin0" />
+      <bin1 bin="1" hits="110" abs_name="top.div.wordop.bin1" />
+    </wordop>
+    <in2_is_zero size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.in2_is_zero" weight="1" at_least="1">
+      <bin0 bin="True" hits="4" abs_name="top.div.in2_is_zero.bin0" />
+      <bin1 bin="False" hits="230" abs_name="top.div.in2_is_zero.bin1" />
+    </in2_is_zero>
+    <in1_is_zero size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.in1_is_zero" weight="1" at_least="1">
+      <bin0 bin="True" hits="4" abs_name="top.div.in1_is_zero.bin0" />
+      <bin1 bin="False" hits="230" abs_name="top.div.in1_is_zero.bin1" />
+    </in1_is_zero>
+    <in1_eq_in2 size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.in1_eq_in2" weight="1" at_least="1">
+      <bin0 bin="True" hits="6" abs_name="top.div.in1_eq_in2.bin0" />
+      <bin1 bin="False" hits="228" abs_name="top.div.in1_eq_in2.bin1" />
+    </in1_eq_in2>
+    <in2_is_one size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.in2_is_one" weight="1" at_least="1">
+      <bin0 bin="True" hits="2" abs_name="top.div.in2_is_one.bin0" />
+      <bin1 bin="False" hits="232" abs_name="top.div.in2_is_one.bin1" />
+    </in2_is_one>
+    <in2_gt_in1 size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.in2_gt_in1" weight="1" at_least="1">
+      <bin0 bin="True" hits="115" abs_name="top.div.in2_gt_in1.bin0" />
+      <bin1 bin="False" hits="119" abs_name="top.div.in2_gt_in1.bin1" />
+    </in2_gt_in1>
+    <max_unsigned_operand size="2" coverage="2" cover_percentage="100.0" abs_name="top.div.max_unsigned_operand" weight="1" at_least="1">
+      <bin0 bin="True" hits="12" abs_name="top.div.max_unsigned_operand.bin0" />
+      <bin1 bin="False" hits="222" abs_name="top.div.max_unsigned_operand.bin1" />
+    </max_unsigned_operand>
+    <cross_funct3_wordop size="4" coverage="4" cover_percentage="100.0" abs_name="top.div.cross_funct3_wordop" weight="1" at_least="1">
+      <bin0 bin="(5, 0)" hits="61" abs_name="top.div.cross_funct3_wordop.bin0" />
+      <bin1 bin="(5, 1)" hits="56" abs_name="top.div.cross_funct3_wordop.bin1" />
+      <bin2 bin="(7, 0)" hits="63" abs_name="top.div.cross_funct3_wordop.bin2" />
+      <bin3 bin="(7, 1)" hits="54" abs_name="top.div.cross_funct3_wordop.bin3" />
+    </cross_funct3_wordop>
+    <cross_funct3_in2_zero size="4" coverage="4" cover_percentage="100.0" abs_name="top.div.cross_funct3_in2_zero" weight="1" at_least="1">
+      <bin0 bin="(5, True)" hits="2" abs_name="top.div.cross_funct3_in2_zero.bin0" />
+      <bin1 bin="(5, False)" hits="115" abs_name="top.div.cross_funct3_in2_zero.bin1" />
+      <bin2 bin="(7, True)" hits="2" abs_name="top.div.cross_funct3_in2_zero.bin2" />
+      <bin3 bin="(7, False)" hits="115" abs_name="top.div.cross_funct3_in2_zero.bin3" />
+    </cross_funct3_in2_zero>
+    <cross_funct3_in2_is_one size="4" coverage="4" cover_percentage="100.0" abs_name="top.div.cross_funct3_in2_is_one" weight="1" at_least="1">
+      <bin0 bin="(5, True)" hits="1" abs_name="top.div.cross_funct3_in2_is_one.bin0" />
+      <bin1 bin="(5, False)" hits="116" abs_name="top.div.cross_funct3_in2_is_one.bin1" />
+      <bin2 bin="(7, True)" hits="1" abs_name="top.div.cross_funct3_in2_is_one.bin2" />
+      <bin3 bin="(7, False)" hits="116" abs_name="top.div.cross_funct3_in2_is_one.bin3" />
+    </cross_funct3_in2_is_one>
+    <cross_wordop_max_unsigned size="4" coverage="4" cover_percentage="100.0" abs_name="top.div.cross_wordop_max_unsigned" weight="1" at_least="1">
+      <bin0 bin="(0, True)" hits="6" abs_name="top.div.cross_wordop_max_unsigned.bin0" />
+      <bin1 bin="(0, False)" hits="118" abs_name="top.div.cross_wordop_max_unsigned.bin1" />
+      <bin2 bin="(1, True)" hits="6" abs_name="top.div.cross_wordop_max_unsigned.bin2" />
+      <bin3 bin="(1, False)" hits="104" abs_name="top.div.cross_wordop_max_unsigned.bin3" />
+    </cross_wordop_max_unsigned>
+  </div>
+</top>

@@ -1,0 +1,133 @@
+div:
+  cover_percentage: 100.0
+  coverage: 32
+  size: 32
+  type: <class 'cocotb_coverage.coverage.CoverItem'>
+div.cross_funct3_in2_is_one:
+  at_least: 1
+  bins:_hits:
+    (5, False): 116
+    (5, True): 1
+    (7, False): 116
+    (7, True): 1
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+div.cross_funct3_in2_zero:
+  at_least: 1
+  bins:_hits:
+    (5, False): 115
+    (5, True): 2
+    (7, False): 115
+    (7, True): 2
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+div.cross_funct3_wordop:
+  at_least: 1
+  bins:_hits:
+    (5, 0): 61
+    (5, 1): 56
+    (7, 0): 63
+    (7, 1): 54
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+div.cross_wordop_max_unsigned:
+  at_least: 1
+  bins:_hits:
+    (0, False): 118
+    (0, True): 6
+    (1, False): 104
+    (1, True): 6
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+div.funct3:
+  at_least: 1
+  bins:_hits:
+    5: 117
+    7: 117
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+div.in1_eq_in2:
+  at_least: 1
+  bins:_hits:
+    false: 228
+    true: 6
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+div.in1_is_zero:
+  at_least: 1
+  bins:_hits:
+    false: 230
+    true: 4
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+div.in2_gt_in1:
+  at_least: 1
+  bins:_hits:
+    false: 119
+    true: 115
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+div.in2_is_one:
+  at_least: 1
+  bins:_hits:
+    false: 232
+    true: 2
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+div.in2_is_zero:
+  at_least: 1
+  bins:_hits:
+    false: 230
+    true: 4
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+div.max_unsigned_operand:
+  at_least: 1
+  bins:_hits:
+    false: 222
+    true: 12
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+div.wordop:
+  at_least: 1
+  bins:_hits:
+    0: 124
+    1: 110
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1

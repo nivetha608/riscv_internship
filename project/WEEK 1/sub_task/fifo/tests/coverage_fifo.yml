@@ -1,0 +1,125 @@
+top:
+  cover_percentage: 81.25
+  coverage: 26
+  size: 32
+  type: <class 'cocotb_coverage.coverage.CoverItem'>
+top.fifo_empty:
+  at_least: 1
+  bins:_hits:
+    false: 94
+    true: 6
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+top.fifo_full:
+  at_least: 1
+  bins:_hits:
+    false: 100
+    true: 0
+  cover_percentage: 50.0
+  coverage: 1
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+top.fifo_overflow:
+  at_least: 1
+  bins:_hits:
+    false: 100
+    true: 0
+  cover_percentage: 50.0
+  coverage: 1
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+top.fifo_threshold:
+  at_least: 1
+  bins:_hits:
+    false: 64
+    true: 36
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+top.fifo_underflow:
+  at_least: 1
+  bins:_hits:
+    false: 96
+    true: 4
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+top.rw:
+  at_least: 1
+  bins:_hits:
+    false: 55
+    true: 45
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+top.rwXempty:
+  at_least: 1
+  bins:_hits:
+    (False, False): 53
+    (False, True): 2
+    (True, False): 41
+    (True, True): 4
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+top.rwXfull:
+  at_least: 1
+  bins:_hits:
+    (False, False): 55
+    (False, True): 0
+    (True, False): 45
+    (True, True): 0
+  cover_percentage: 50.0
+  coverage: 2
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+top.rwXoverflow:
+  at_least: 1
+  bins:_hits:
+    (False, False): 55
+    (False, True): 0
+    (True, False): 45
+    (True, True): 0
+  cover_percentage: 50.0
+  coverage: 2
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+top.rwXthreshold:
+  at_least: 1
+  bins:_hits:
+    (False, False): 39
+    (False, True): 16
+    (True, False): 25
+    (True, True): 20
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+top.rwXunderflow:
+  at_least: 1
+  bins:_hits:
+    (False, False): 53
+    (False, True): 2
+    (True, False): 43
+    (True, True): 2
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1

@@ -1,0 +1,88 @@
+logic:
+  cover_percentage: 100.0
+  coverage: 59
+  size: 59
+  type: <class 'cocotb_coverage.coverage.CoverItem'>
+logic.cross:
+  at_least: 1
+  bins:_hits:
+    ('VAND', 16): 22
+    ('VAND', 32): 21
+    ('VAND', 64): 31
+    ('VAND', 8): 26
+    ('VANDNOT', 16): 24
+    ('VANDNOT', 32): 17
+    ('VANDNOT', 64): 17
+    ('VANDNOT', 8): 28
+    ('VNAND', 16): 23
+    ('VNAND', 32): 22
+    ('VNAND', 64): 19
+    ('VNAND', 8): 23
+    ('VNOR', 16): 16
+    ('VNOR', 32): 16
+    ('VNOR', 64): 19
+    ('VNOR', 8): 33
+    ('VNOT', 16): 12
+    ('VNOT', 32): 23
+    ('VNOT', 64): 13
+    ('VNOT', 8): 32
+    ('VOR', 16): 18
+    ('VOR', 32): 24
+    ('VOR', 64): 30
+    ('VOR', 8): 22
+    ('VSLL', 16): 15
+    ('VSLL', 32): 30
+    ('VSLL', 64): 34
+    ('VSLL', 8): 21
+    ('VSRA', 16): 31
+    ('VSRA', 32): 27
+    ('VSRA', 64): 24
+    ('VSRA', 8): 19
+    ('VSRL', 16): 38
+    ('VSRL', 32): 27
+    ('VSRL', 64): 23
+    ('VSRL', 8): 28
+    ('VXNOR', 16): 18
+    ('VXNOR', 32): 29
+    ('VXNOR', 64): 15
+    ('VXNOR', 8): 23
+    ('VXOR', 16): 21
+    ('VXOR', 32): 17
+    ('VXOR', 64): 15
+    ('VXOR', 8): 23
+  cover_percentage: 100.0
+  coverage: 44
+  size: 44
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+logic.opcode:
+  at_least: 1
+  bins:_hits:
+    VAND: 100
+    VANDNOT: 86
+    VNAND: 87
+    VNOR: 84
+    VNOT: 80
+    VOR: 94
+    VSLL: 100
+    VSRA: 101
+    VSRL: 116
+    VXNOR: 85
+    VXOR: 76
+  cover_percentage: 100.0
+  coverage: 11
+  size: 11
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+logic.sew:
+  at_least: 1
+  bins:_hits:
+    8: 278
+    16: 238
+    32: 253
+    64: 240
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1

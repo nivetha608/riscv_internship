@@ -1,0 +1,69 @@
+<top abs_name="top" size="59" coverage="59" cover_percentage="100.0">
+  <logic size="59" coverage="59" cover_percentage="100.0" abs_name="top.logic">
+    <opcode size="11" coverage="11" cover_percentage="100.0" abs_name="top.logic.opcode" weight="1" at_least="1">
+      <bin0 bin="VAND" hits="100" abs_name="top.logic.opcode.bin0" />
+      <bin1 bin="VNAND" hits="87" abs_name="top.logic.opcode.bin1" />
+      <bin2 bin="VANDNOT" hits="86" abs_name="top.logic.opcode.bin2" />
+      <bin3 bin="VOR" hits="94" abs_name="top.logic.opcode.bin3" />
+      <bin4 bin="VNOR" hits="84" abs_name="top.logic.opcode.bin4" />
+      <bin5 bin="VXOR" hits="76" abs_name="top.logic.opcode.bin5" />
+      <bin6 bin="VXNOR" hits="85" abs_name="top.logic.opcode.bin6" />
+      <bin7 bin="VNOT" hits="80" abs_name="top.logic.opcode.bin7" />
+      <bin8 bin="VSLL" hits="100" abs_name="top.logic.opcode.bin8" />
+      <bin9 bin="VSRL" hits="116" abs_name="top.logic.opcode.bin9" />
+      <bin10 bin="VSRA" hits="101" abs_name="top.logic.opcode.bin10" />
+    </opcode>
+    <sew size="4" coverage="4" cover_percentage="100.0" abs_name="top.logic.sew" weight="1" at_least="1">
+      <bin0 bin="8" hits="278" abs_name="top.logic.sew.bin0" />
+      <bin1 bin="16" hits="238" abs_name="top.logic.sew.bin1" />
+      <bin2 bin="32" hits="253" abs_name="top.logic.sew.bin2" />
+      <bin3 bin="64" hits="240" abs_name="top.logic.sew.bin3" />
+    </sew>
+    <cross size="44" coverage="44" cover_percentage="100.0" abs_name="top.logic.cross" weight="1" at_least="1">
+      <bin0 bin="('VAND', 8)" hits="26" abs_name="top.logic.cross.bin0" />
+      <bin1 bin="('VAND', 16)" hits="22" abs_name="top.logic.cross.bin1" />
+      <bin2 bin="('VAND', 32)" hits="21" abs_name="top.logic.cross.bin2" />
+      <bin3 bin="('VAND', 64)" hits="31" abs_name="top.logic.cross.bin3" />
+      <bin4 bin="('VNAND', 8)" hits="23" abs_name="top.logic.cross.bin4" />
+      <bin5 bin="('VNAND', 16)" hits="23" abs_name="top.logic.cross.bin5" />
+      <bin6 bin="('VNAND', 32)" hits="22" abs_name="top.logic.cross.bin6" />
+      <bin7 bin="('VNAND', 64)" hits="19" abs_name="top.logic.cross.bin7" />
+      <bin8 bin="('VANDNOT', 8)" hits="28" abs_name="top.logic.cross.bin8" />
+      <bin9 bin="('VANDNOT', 16)" hits="24" abs_name="top.logic.cross.bin9" />
+      <bin10 bin="('VANDNOT', 32)" hits="17" abs_name="top.logic.cross.bin10" />
+      <bin11 bin="('VANDNOT', 64)" hits="17" abs_name="top.logic.cross.bin11" />
+      <bin12 bin="('VOR', 8)" hits="22" abs_name="top.logic.cross.bin12" />
+      <bin13 bin="('VOR', 16)" hits="18" abs_name="top.logic.cross.bin13" />
+      <bin14 bin="('VOR', 32)" hits="24" abs_name="top.logic.cross.bin14" />
+      <bin15 bin="('VOR', 64)" hits="30" abs_name="top.logic.cross.bin15" />
+      <bin16 bin="('VNOR', 8)" hits="33" abs_name="top.logic.cross.bin16" />
+      <bin17 bin="('VNOR', 16)" hits="16" abs_name="top.logic.cross.bin17" />
+      <bin18 bin="('VNOR', 32)" hits="16" abs_name="top.logic.cross.bin18" />
+      <bin19 bin="('VNOR', 64)" hits="19" abs_name="top.logic.cross.bin19" />
+      <bin20 bin="('VXOR', 8)" hits="23" abs_name="top.logic.cross.bin20" />
+      <bin21 bin="('VXOR', 16)" hits="21" abs_name="top.logic.cross.bin21" />
+      <bin22 bin="('VXOR', 32)" hits="17" abs_name="top.logic.cross.bin22" />
+      <bin23 bin="('VXOR', 64)" hits="15" abs_name="top.logic.cross.bin23" />
+      <bin24 bin="('VXNOR', 8)" hits="23" abs_name="top.logic.cross.bin24" />
+      <bin25 bin="('VXNOR', 16)" hits="18" abs_name="top.logic.cross.bin25" />
+      <bin26 bin="('VXNOR', 32)" hits="29" abs_name="top.logic.cross.bin26" />
+      <bin27 bin="('VXNOR', 64)" hits="15" abs_name="top.logic.cross.bin27" />
+      <bin28 bin="('VNOT', 8)" hits="32" abs_name="top.logic.cross.bin28" />
+      <bin29 bin="('VNOT', 16)" hits="12" abs_name="top.logic.cross.bin29" />
+      <bin30 bin="('VNOT', 32)" hits="23" abs_name="top.logic.cross.bin30" />
+      <bin31 bin="('VNOT', 64)" hits="13" abs_name="top.logic.cross.bin31" />
+      <bin32 bin="('VSLL', 8)" hits="21" abs_name="top.logic.cross.bin32" />
+      <bin33 bin="('VSLL', 16)" hits="15" abs_name="top.logic.cross.bin33" />
+      <bin34 bin="('VSLL', 32)" hits="30" abs_name="top.logic.cross.bin34" />
+      <bin35 bin="('VSLL', 64)" hits="34" abs_name="top.logic.cross.bin35" />
+      <bin36 bin="('VSRL', 8)" hits="28" abs_name="top.logic.cross.bin36" />
+      <bin37 bin="('VSRL', 16)" hits="38" abs_name="top.logic.cross.bin37" />
+      <bin38 bin="('VSRL', 32)" hits="27" abs_name="top.logic.cross.bin38" />
+      <bin39 bin="('VSRL', 64)" hits="23" abs_name="top.logic.cross.bin39" />
+      <bin40 bin="('VSRA', 8)" hits="19" abs_name="top.logic.cross.bin40" />
+      <bin41 bin="('VSRA', 16)" hits="31" abs_name="top.logic.cross.bin41" />
+      <bin42 bin="('VSRA', 32)" hits="27" abs_name="top.logic.cross.bin42" />
+      <bin43 bin="('VSRA', 64)" hits="24" abs_name="top.logic.cross.bin43" />
+    </cross>
+  </logic>
+</top>
